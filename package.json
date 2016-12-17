@@ -1,0 +1,14 @@
+{
+  "name": "timestamp",
+  "version": "1.0.0",
+  "description": "Micro project ",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Dr phil",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
