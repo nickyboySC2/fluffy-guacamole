@@ -2,7 +2,7 @@ var express = require("express");
 
 var app = express();
 
-app.use(express.static('public'));
+app.use(express.static('client'));
 
 app.get('/*', function (req, res) {
 	var responseObj = {"Unix":null,"Natural":null};
@@ -30,7 +30,7 @@ app.get('/*', function (req, res) {
 	res.end(JSON.stringify(responseObj));
 });
 
-app.listen(8888, function () {
-	console.log('Example app listening on port 8888!');
+app.listen(process.env.PORT, function () {
+	console.log('Example app listening on port %s!',process.env.PORT);
 });
 

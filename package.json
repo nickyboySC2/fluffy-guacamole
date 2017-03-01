@@ -4,12 +4,21 @@
   "description": "Micro project ",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "test": "node index.js",
+    "start": "node server.js"
   },
   "author": "Dr phil",
   "license": "ISC",
   "dependencies": {
     "express": "^4.14.0"
   },
-  "repository": "https://github.com/nickyboySC2/fluffy-guacamole"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickyboySC2/fluffy-guacamole.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nickyboySC2/fluffy-guacamole/issues"
+  },
+  "homepage": "https://github.com/nickyboySC2/fluffy-guacamole#readme",
+  "devDependencies": {}
 }
